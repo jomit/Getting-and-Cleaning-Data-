@@ -22,7 +22,7 @@ The R script that performs analysis on the raw data and generates a tidy data se
 
 How the `run_analysis.R` script works
 -----------------
-(Note: Extract the UCI HAR Dataset in your working directory before running the script)
+(Note: Extract the `UCI HAR Dataset` folder in your working directory before running the script)
 
 * It reads the train and test sensor data from `X_train.txt`, `X_test.txt` files and merges it using `rbind`.
 * It reads the train and test activity data from `y_train.txt`, `y_test.txt` files, merges it using `rbind` and changes column name to `Activity`.
