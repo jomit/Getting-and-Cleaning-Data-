@@ -8,17 +8,17 @@ This repository contains the project work for the Coursera course "Getting and C
 `UCI HAR Dataset` folder:
 -----------------
 
-Contains all the raw data used for analysis.
+Contains the raw dataset used for analysis.
 
 `CodeBook.md` file:
 -----------------
 
-Describes the variables, the data, and all the transformations that were performed to create the tidy data.
+Describes the variables, the data, and all the transformations that were performed to create the tidy dataset.
 
 `run_analysis.R` file:
 -----------------
 
-The R script that performs analysis on the raw data and generates a tidy data set with averages of specific variables.
+The R script that performs analysis on the raw dataset and generates a tidy dataset.
 
 How the `run_analysis.R` script works
 -----------------
@@ -35,6 +35,3 @@ How the `run_analysis.R` script works
 * It creates a tidy data frame with the average of each variable for each activity and each subject using `aggregate` function
 * It removes the extra `Subject` and `Activity` columns from the end
 * It creates a file `UCI HAR Tidy Dataset.txt` from tidy data set using `write.table`
-
-
-
