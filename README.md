@@ -20,7 +20,7 @@ Describes the variables, the data, and all the transformations that were perform
 
 The R script that performs analysis on the raw data and generates a tidy data set with averages of specific variables.
 
-How the script `run_analysis.R` works
+How the `run_analysis.R` script works
 -----------------
 (Note: Extract the UCI HAR Dataset in your working directory before running the script)
 
