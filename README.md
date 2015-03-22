@@ -34,4 +34,4 @@ How the `run_analysis.R` script works
 * It changes the activity numbers to descriptive activity names using `match`
 * It creates a tidy data frame with the average of each variable for each activity and each subject using `aggregate` function
 * It removes the extra `Subject` and `Activity` columns from the end
-* It creates a file `UCI HAR Tidy Dataset.txt` from tidy data set using `write.table`
+* It creates a file `UCI HAR Tidy Dataset.txt` from tidy dataset using `write.table`
